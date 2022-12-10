@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon titre</title>
+        <meta charset="utf-8" />
+        <link href="css.css" media="all" rel="stylesheet" type="text/css" />
+        <script src="js.js" async></script>
+    </head>
+    <body>
+        <div id="Print"></div>
+            
+<a>
+     <div id="scene"> <!--mise en place de la scene pour bien placer les personnages-->
+            <div id="heros"><!--mise en place du premier hero-->
+                <div id="p1"><div id="Dwain">Dwain HP:50
+                    <div id="mana1">100</div>
+                        <img src="https://opengameart.org/sites/default/files/styles/medium/public/block_00003.png"style="width:150px;height:150px"; ></img>->
+                        <p  class="choix1"> <div id="choix1">    <div id="afficherchoix1"></div>
+                                                <div id="afficherchoix2"></div>
+                                                <div id="afficherchoix3"></div>
+                                            </div>    <div id="afficherchoix4"></div>
+                                        </p>
+                    </div>                                        
+                </div>
+
+                <div id="p2"><div id="Keria">Keria HP:50<!--mise en place du second-->
+                                    <div id="mana2">100</div>
+                                        <img src="https://opengameart.org/sites/default/files/styles/medium/public/templar.png"style="width:150px;height:150px;">->
+                                        <div id ="choixKeria" onmouseover= afficherchoix(0) onmouseout= cacherChoix(0)>
+                                        <div id="choix2">    <div id="afficherchoix5"></div>
+                                            <div id="afficherchoix6"></div>
+                                            <div id="afficherchoix7"></div>
+                                        </div>   <div id="afficherchoix8"></div>
+                    </div>                        </div>
+                                    </div>
+
+                <div id="p3">
+                    <div id="Zeus">Zeus HP: 50<!--mise en place du troisieme-->
+                                        <div id="mana3">100</div>
+                                        <img src="https://opengameart.org/sites/default/files/styles/medium/public/knight1_0.png"style="width:150px;height:150px;">->
+                                        <div id="choix3">    <div id="afficherchoix9"></div>
+                                            <div id="afficherchoix10"></div>
+                                            <div id="afficherchoix11"></div>
+                                        </div>
+                                        <div id="afficherchoix12"></div>
+                        </div>                </div>
+
+                <div id="p4"><div id="Faker">Faker HP: 40<!--mise en place du dernier-->
+                <div id="mana4">100</div>
+                                                        <img src="https://opengameart.org/sites/default/files/styles/medium/public/attack_knight.gif"style="width:150px;height:150px;">->
+                                                    <div id="choix4">   <div id="afficherchoix13"></div>
+                                                        <div id="afficherchoix14"></div>
+                                                        <div id="afficherchoix15"></div>
+                                                    </div>    <div id="afficherchoix16"></div>
+                    </div>                                </div>
+            </div>    
+
+            <div id="monstre"> <div id="p5"><div id="Monstre1"></div><!-- mise en place du premier monstre-->
+                        <p  class="Monstre">
+                            <div id="monstre1">
+                                <p id="monstre1HP">100</p>
+                                <img src="https://opengameart.org/sites/default/files/styles/medium/public/troll_4.png" id="" onclick="targetSelect(0)" onmouseover="afficherHP('monstre1HP')" onmouseout="cacherHP('monstre1HP')" ></img>
+                            </div>
+                    </p>
+                </div>
+            
+
+
+
+                    <div id="p6"><div id="Monstre2"></div><!--mise en place du boss-->
+                    <div id="monstre2">
+                    <p id="monstre2HP">PV : 250/250</p>                    
+                        <img src="https://opengameart.org/sites/default/files/styles/medium/public/dorver-stand.gif"style="width:150px;height:150px;" id="" onclick="targetSelect(1)" onmouseover="afficherHP('monstre2HP')" onmouseout="cacherHP('monstre2HP')" ></img> 
+                    </div>
+                </div>
+
+                    <div id="p7"><div id="Monstre3"></div><!--mise en place du dernier monstre-->
+                    <div id="monstre3">
+                    <p id="monstre3HP">PV : 100/100</p>                    
+                        <img src="https://opengameart.org/sites/default/files/styles/medium/public/fenrir_wolf.png" style="width:150px;height:150px;"id="" onclick="targetSelect(2)" onmouseover="afficherHP('monstre3HP')" onmouseout="cacherHP('monstre3HP')" ></img> 
+                    </div>
+                </div>
+            </div>
+        </div>  </a>  
+        <div id="findepartie">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIdYL64VGXp3AAlkNlx4d1xMSufqCkIqa4FzvLik4oYRXs5RmoXAvtDl4qQo54vgxLTBQ&usqp=CAU">
+
+        </div>
+    </body>
+</html>

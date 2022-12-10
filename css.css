@@ -1,0 +1,147 @@
+body{/*mise en place de la scene principale*/
+    color:rgba(255, 255, 255, 0.856);
+    
+    margin: 20px;
+    background-image:url(https://img.freepik.com/premium-photo/fantastic-epic-magica-landscape-mountains-summer-nature-mystic-forest-gaming-rpg-background_636456-77.jpg?w=2000) ;
+    background-size: 100%;
+}
+
+#p1{/*mise en forme du premier personnage*/
+    color:rgb(0, 147, 27); 
+ font-size: 25px;
+ margin: 30px;
+ border-left: 10px ridge rgba(10, 220, 50,255); 
+}
+
+#p2 {/*mise en forme du second personnage*/
+    color:rgb(0, 147, 27); 
+    font-size: 25px;
+    margin: 30px;
+    border-left: 10px ridge rgba(10, 220, 50, 255);
+}
+
+#p3 {/*mise en forme du troisieme personnage*/
+    
+    color:rgb(0, 147, 27); 
+    font-size: 25px;
+    margin: 30px;
+    border-left: 10px ridge rgba(10, 220, 50, 255);
+}
+
+#p4 {/*mise en forme du dernier personnage*/
+    color:rgb(0, 147, 27); 
+    font-size: 25px;
+    margin: 30px;
+    border-left: 10px ridge rgba(10, 220, 50, 255);
+}
+
+
+#Print{/*ecriture des actions*/
+    color: azure;
+    font-size: 15px;
+
+}
+
+
+#mana1 {/*Mise en couleur du mana des personnages*/
+    color:aqua
+}
+#mana2{
+    color:aqua
+}
+#mana3{
+    color:aqua
+}
+#mana4{
+    color:aqua
+}
+
+
+
+
+#p5 {/*Mise en forme du premier monstre*/
+    color:rgb(224, 27, 13, 0.6);
+    font-size:25px;
+    margin: 30px;
+    border-right: 10px ridge rgba(224, 27, 13, 255);
+
+}
+#p6{/*Mise en forme du second monstre*/
+    color:rgb(224, 27, 13, 0.6);
+    font-size:25px;
+    margin: 30px;
+    border-right: 10px ridge rgba(224, 27, 13, 255);
+}
+#p7{/*Mise en forme du dernier monstre*/
+    color:rgb(224, 27, 13, 0.6);
+    font-size:25px;
+    margin: 30px;
+    position:relative;
+    right:100px;
+    border-right: 10px ridge rgba(224, 27, 13, 255);
+}
+
+
+#scene{
+display:flex;
+justify-content: space-between;
+align-items:center;     
+}
+
+
+
+#monstre{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    
+    
+
+
+
+}
+
+#choix1:hover{
+    background-color:rgb(76, 118, 235)
+}
+#choix2:hover{
+    background-color:rgb(76, 118, 235)
+}
+#choix3:hover{
+    background-color:rgb(76, 118, 235)
+}
+#choix4:hover{
+    background-color:rgb(76, 118, 235)
+}
+
+#onmouseover{
+color:rgba(148, 57, 53, 0.6)
+}
+/* changer la couleur du fond en passant la souris dessus */
+#p1:hover{
+    background-color:rgb(255, 255, 255)
+}
+#p2:hover{
+    background-color:rgb(255, 255, 255)
+}
+#p3:hover{
+    background-color:rgb(255, 255, 255)
+}
+#p4:hover{
+    background-color:rgb(255, 255, 255)
+}
+#monstre1:hover{
+    background-color:rgba(12, 158, 126, 0.411)
+}
+#monstre2:hover{
+    background-color:rgba(12, 158, 126, 0.411)
+}
+#monstre3:hover{
+    background-color:rgba(12, 158, 126, 0.411)
+}
+
+#findepartie{
+    display:none;
+}
